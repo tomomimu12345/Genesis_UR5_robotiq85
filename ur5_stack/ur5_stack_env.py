@@ -126,6 +126,7 @@ class UR5StackEnv:
             dofs_idx_local=self.dof_idx,
             zero_velocity=True,
             envs_idx=env_ids,
+            
         )
 
         self.calc_block_pos()
